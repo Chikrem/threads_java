@@ -1,7 +1,7 @@
-# threads_java
+Problema da Pista de Esqui
  Projeto de Programação Paralela e Concorrente usando Java e Threads.
 
-Problema da Pista de Esqui
+
 
 #Introdução
 --------
