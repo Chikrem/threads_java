@@ -4,6 +4,7 @@
 Problema da Pista de Esqui
 
 #Introdução
+--------
 
 Esquiar é uma atividade muito praticada em países de clima frio durante o inverno. Um dos locais mais
 apreciados é a estação de esqui de Gornergrat nos Alpes, localizada na cidade de Zermatt na Suiça. Gornergrat
@@ -13,6 +14,8 @@ O trabalho pode ser feito por DUPLAS Será necessário especificar no relatório
 membro da dupla.
 
 #Matterhorn
+--------
+
 Em uma estação de esqui existem elevadores que levam as pessoas para o alto da pista de onde elas vão iniciar
 a sua descida com ski até a base da pista. Em Gomergrat existe um elevador de esqui aberto, também
 conhecido como chairlift, com capacidade para quatro pessoas mostrado na figura abaixo. Lá existe elevadores
@@ -27,6 +30,8 @@ O problema do trabalho prático proposto consiste em implementar o controle de e
 esqui.
 
 #Descrição do Problema
+--------
+
 A nossa pista de ski tem uma cadeira quadrupla, com capacidade de quatro pessoas por vez. Para isso são
 organizadas quatro filas de carregamento distintas:
 LS (Left Single): Fila de uma pessoa no lado esquerdo
@@ -53,7 +58,9 @@ c) Menor ou igual ao tamanho da fila LS.
 3) Escolhe a fila LT se o comprimento da fila LT for menor ou igual ao tamanho da fila RT, senão,
 4) Escolhe a fila RT
 
-Procedimento para carregar o elevador:
+#Procedimento para carregar o elevador:
+--------
+
 Considere que existe um processo Elevador que retira os esquiadores das filas conforme o procedimento
 abaixo.
 
@@ -67,6 +74,7 @@ Se as filas LT e RT estiverem vazias é permitido atender as filas LS e RS até 
 Caso as filas LS e RS estejam vazias é permitido que a cadeira viaje com apenas três pessoas sentadas.
 
 #Regras Gerais
+--------
 
 Esse problema é basicamente um produtos-consumidor com quatro filas. Para simplificar nosso problema
 vamos considerar uma fila bem grande para não ocorrer transbordamento (consideramos filas com tamanho
