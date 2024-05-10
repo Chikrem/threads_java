@@ -1,10 +1,10 @@
 Problema da Pista de Esqui
- Projeto de Programação Paralela e Concorrente usando Java e Threads.
+--------
 
-
+Projeto de Programação Paralela e Concorrente usando Java e Threads.
 
 #Introdução
---------
+
 
 Esquiar é uma atividade muito praticada em países de clima frio durante o inverno. Um dos locais mais
 apreciados é a estação de esqui de Gornergrat nos Alpes, localizada na cidade de Zermatt na Suiça. Gornergrat
